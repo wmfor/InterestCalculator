@@ -1,0 +1,15 @@
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\bin\Debug\net7.0\InterestCalculator.exe
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\bin\Debug\net7.0\InterestCalculator.deps.json
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\bin\Debug\net7.0\InterestCalculator.runtimeconfig.json
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\bin\Debug\net7.0\InterestCalculator.dll
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\bin\Debug\net7.0\InterestCalculator.pdb
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\obj\Debug\net7.0\InterestCalculator.csproj.AssemblyReference.cache
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\obj\Debug\net7.0\InterestCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\obj\Debug\net7.0\InterestCalculator.AssemblyInfoInputs.cache
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\obj\Debug\net7.0\InterestCalculator.AssemblyInfo.cs
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\obj\Debug\net7.0\InterestCalculator.csproj.CoreCompileInputs.cache
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\obj\Debug\net7.0\InterestCalculator.dll
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\obj\Debug\net7.0\refint\InterestCalculator.dll
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\obj\Debug\net7.0\InterestCalculator.pdb
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\obj\Debug\net7.0\InterestCalculator.genruntimeconfig.cache
+C:\GITHUB\InterestCalculator\C#\InterestCalculator\InterestCalculator\obj\Debug\net7.0\ref\InterestCalculator.dll
