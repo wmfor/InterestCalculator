@@ -28,7 +28,7 @@ internal class InterestCalculator
                         Console.WriteLine("Principle unknown.");
                         listIndex = 1;
                     }
-                    else if(principle > 1)
+                    else if(principle > 0)
                     {
                         hasP = true;
                         listIndex = 1;
@@ -43,8 +43,13 @@ internal class InterestCalculator
                         Console.WriteLine("Rate unknown.");
                         listIndex = 2;
                     }
-                    else if (rate > 1)
+                    else if (rate > 0)
                     {
+                        if (rate > 1)//If you entered a value that's not a decimal percentage.
+                        {
+                            rate = rate / 100;
+                        }
+
                         hasR = true;
                         listIndex = 2;
                     }
@@ -58,7 +63,7 @@ internal class InterestCalculator
                         Console.WriteLine("Timespan unknown.");
                         listIndex = 3;
                     }
-                    else if (timespan > 1)
+                    else if (timespan > 0)
                     {
                         hasT = true;
                         listIndex = 3;
@@ -73,7 +78,7 @@ internal class InterestCalculator
                         Console.WriteLine("Interest unknown.");
                         prompting = false;
                     }
-                    else if (interest > 1)
+                    else if (interest > 0)
                     {
                         hasI = true;
                         prompting = false;
@@ -83,30 +88,33 @@ internal class InterestCalculator
             }
         }
 
-        if (hasP && hasR && hasT)
+        if (!prompting)
         {
-            Console.WriteLine("Solving for Interest");
+            if (hasP && hasR && hasT)
+            {
+                Console.WriteLine("Solving for Interest");
 
-            Console.WriteLine("Interest is - " + SolveForInterest(principle, rate, timespan));
-            Console.WriteLine("Total amount to be paid is - " + (principle + SolveForInterest(principle, rate, timespan)));
-        }
-        else if (hasR && hasT && hasI)
-        {
-            Console.WriteLine("Solving for Principle");
+                Console.WriteLine("Interest is - " + SolveForInterest(principle, rate, timespan));
+                Console.WriteLine("Total amount to be paid is - " + (principle + SolveForInterest(principle, rate, timespan)));
+            }
+            else if (hasR && hasT && hasI)
+            {
+                Console.WriteLine("Solving for Principle");
 
-            Console.WriteLine("Principle is - " + SolveForPrinciple(rate, timespan, interest));
-        }
-        else if (hasR && hasI && hasP)
-        {
-            Console.WriteLine("Solving for Time");
+                Console.WriteLine("Principle is - " + SolveForPrinciple(rate, timespan, interest));
+            }
+            else if (hasR && hasI && hasP)
+            {
+                Console.WriteLine("Solving for Time");
 
-            Console.WriteLine("Timespan is - " + SolveForTime(rate, interest, principle) + " in years.");
-        }
-        else if (hasI && hasP && hasT)
-        {
-            Console.WriteLine("Solving for Rate");
+                Console.WriteLine("Timespan is - " + SolveForTime(rate, interest, principle) + " in years.");
+            }
+            else if (hasI && hasP && hasT)
+            {
+                Console.WriteLine("Solving for Rate");
 
-            Console.WriteLine("Rate is - " + SolveForRate(interest, principle, timespan));
+                Console.WriteLine("Rate is - " + SolveForRate(interest, principle, timespan));
+            }
         }
     }
 
