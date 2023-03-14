@@ -1,4 +1,4 @@
-# Weston's Basic & Compound Interest Calculator
+# Basic & Compound Interest Calculator
 Simple Console Apps to calculate basic &amp; compound interest. 
 Examples in C#, Java &amp; Python.,
 
